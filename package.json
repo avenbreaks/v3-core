@@ -1,14 +1,16 @@
 {
   "name": "@uniswap/v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
+  "description": "Core smart contracts of Lyzo One V3",
   "license": "BUSL-1.1",
   "publishConfig": {
     "access": "public"
   },
   "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "homepage": "https://lyzo.one",
   "keywords": [
     "uniswap",
+    "lyzofi",
+    "lyzovalidators",
     "core",
     "v3"
   ],
@@ -19,8 +21,8 @@
   "files": [
     "contracts/interfaces",
     "contracts/libraries",
-    "artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json",
-    "artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json",
+    "artifacts/contracts/LyzoV3Factory.sol/LyzoV3Factory.json",
+    "artifacts/contracts/LyzoV3Pool.sol/LyzoV3Pool.json",
     "artifacts/contracts/interfaces/**/*.json",
     "!artifacts/contracts/interfaces/**/*.dbg.json"
   ],
