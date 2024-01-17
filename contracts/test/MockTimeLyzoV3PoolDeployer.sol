@@ -3,7 +3,7 @@ pragma solidity =0.7.6;
 
 import '../interfaces/ILyzoV3PoolDeployer.sol';
 
-import './MockTimeUniswapV3Pool.sol';
+import './MockTimeLyzoV3Pool.sol';
 
 contract MockTimeLyzoV3PoolDeployer is ILyzoV3PoolDeployer {
     struct Parameters {
