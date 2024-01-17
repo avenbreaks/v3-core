@@ -8,8 +8,8 @@ import './pool/ILyzoV3PoolActions.sol';
 import './pool/ILyzoV3PoolOwnerActions.sol';
 import './pool/ILyzoV3PoolEvents.sol';
 
-/// @title The interface for a Uniswap V3 Pool
-/// @notice A Uniswap pool facilitates swapping and automated market making between any two assets that strictly conform
+/// @title The interface for a Lyzo V3 Pool
+/// @notice A Lyzo pool facilitates swapping and automated market making between any two assets that strictly conform
 /// to the ERC20 specification
 /// @dev The pool interface is broken up into many smaller pieces
 interface ILyzoV3Pool is

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: MIT
 pragma solidity =0.7.6;
 
 import './interfaces/ILyzoV3Factory.sol';
@@ -10,7 +10,7 @@ import './LyzoV3Pool.sol';
 
 /// @title Canonical Lyzo V3 factory
 /// @notice Deploys Lyzo V3 pools and manages ownership and control over pool protocol fees
-contract UniswapV3Factory is ILyzoV3Factory, LyzoV3PoolDeployer, NoDelegateCall {
+contract LyzoV3Factory is ILyzoV3Factory, LyzoV3PoolDeployer, NoDelegateCall {
     /// @inheritdoc ILyzoV3Factory
     address public override owner;
 
